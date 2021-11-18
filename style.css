@@ -84,10 +84,7 @@ header ul li a:after{
 header ul li a:hover:after{
     width:100%;
 }
-.f1{
-    position: relative;
-   
-}
+
 
 
 
@@ -95,10 +92,11 @@ header ul li a:hover:after{
     position: absolute;
     width: 100%;
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     align-items: center;
     left: 6%;
     bottom: 5%;
+    max-width: 700px;
 
 }
 .content .text-content{
@@ -209,4 +207,11 @@ footer{
     font-size: 14px;
     word-spacing: 2px;
     text-transform: uppercase;  
+}
+@media(max-width:767px){
+    
+    iframe{
+        width: 85%;
+        height: 70%;
+    }
 }
